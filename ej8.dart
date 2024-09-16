@@ -25,7 +25,7 @@ class CuentaBancaria {
     print('Ingrese cuanto quiere retirar');
     String? retiro = stdin.readLineSync();
     double retiroParse = double.parse('$retiro');
-    
+
     if (retiroParse > saldo) {
       print('Fondos insuficientes. Tu saldo es de \$$saldo');
     } else {

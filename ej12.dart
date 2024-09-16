@@ -20,6 +20,7 @@ List<String> promediosOk(List<Estudiante> estudiantes) {
       .map((estudiante) => estudiante.nombre)
       .toList();
 }
+
 void main() {
   List<Estudiante> estudiantes = [
     Estudiante('Lolo', 24, [7, 6, 9]),

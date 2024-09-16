@@ -14,7 +14,7 @@ void main() {
   int suma = num1 + num2;
   int resta = num1 - num2;
   int multiplicacion = num1 * num2;
-  double division = num1 / num2; // División como número decimal
+  double division = num1 / num2; // División con double (por número decimal)
 
   // Imprimimos los resultados
   print('La suma es =  $suma');

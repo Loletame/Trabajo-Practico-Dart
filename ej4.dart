@@ -6,7 +6,7 @@ void main() {
   int num = int.parse(numStr!);
 
   int suma = 0;
-
+  //Bucle for para continuar la suma mientras que el integer i sea menor o igual a num
   for (int i = 1; i <= num; i++) {
     suma += i;
   }

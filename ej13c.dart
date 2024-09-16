@@ -1,8 +1,7 @@
-
 int? busquedaBinaria(List<int> lista, int valor, int inicio, int fin) {
   print("Buscando $valor en la lista: $lista, desde $inicio hasta $fin");
 
-  while (inicio <= fin) { 
+  while (inicio <= fin) {
     int medio = (inicio + fin) ~/ 2;
     print("Medio: $medio, valor en medio: ${lista[medio]}");
 
@@ -30,7 +29,7 @@ void main() {
   // int valorBuscado = 9;
 
   //ej busqueda numero no disponible
-  // int valorBuscado = 12; 
+  // int valorBuscado = 12;
 
   int? resultado = busquedaBinaria(lista, valorBuscado, 0, lista.length - 1);
 

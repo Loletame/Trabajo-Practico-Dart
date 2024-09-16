@@ -59,7 +59,7 @@ void mostrarContactos() {
     print('No hay contactos.');
   } else {
     print('CONTACTOS');
-    
+
     // Usar map para transformar la lista de contactos a una lista de cadenas formateadas
     contactos.asMap().forEach((index, contacto) {
       print('${index + 1}. ${contacto.toString()}');
@@ -74,8 +74,8 @@ void buscarContactos() {
   try {
     Contacto contactoOk = contactos.firstWhere(
         (contacto) => contacto.nombre.toLowerCase() == nombreOk.toLowerCase());
-        
-  print('✅ ${contactoOk.toString()}✅');
+
+    print('✅ ${contactoOk.toString()}✅');
   } catch (e) {
     print('no se encontro el contacto "$nombreOk"');
   }

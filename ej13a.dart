@@ -7,8 +7,6 @@ int factorial(int n) {
 }
 
 void main() {
-
-  
   //Pruebas de la funcion factorial
   print('Factorial de 2: ${factorial(2)}');
   print('Factorial de 3: ${factorial(3)}');

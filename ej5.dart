@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  
   print('Ingrese el radio del círculo: ');
   String? radioStr = stdin.readLineSync();
   double radio = double.parse(radioStr!);
